@@ -20,8 +20,8 @@ for($row = 0; $row<$p; $row++){
 	echo "<br/>";
 }
 echo "The transpose of first matrix is:"."<br/>";
-for($row = 0; $row<$p; $row++){
-	for($col = 0; $col<$q; $col++){
+for($row = 0; $row<$m; $row++){
+	for($col = 0; $col<$n; $col++){
 		echo "".$a[$col][$row]." ";
 	}
 	echo "<br/>";
